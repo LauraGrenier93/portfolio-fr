@@ -1,3 +1,8 @@
+:root {
+    --red-bg: rgb(250, 114, 114);
+    --yellow-bg: #FFC796
+}
+
 body {
     background-image: linear-gradient(to top, rgb(250, 114, 114), #FFC796);
     font-weight: 600;
@@ -7,7 +12,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    background-color: rgb(250, 114, 114);
+    background-color: var(--red-bg);
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -44,7 +49,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: #FFC796;
+    color: var(--yellow-bg);
     transition: 0.2s
 }
 
@@ -166,7 +171,7 @@ h3 {
 }
 
 .text a {
-    background-color: rgb(250, 114, 114);
+    background-color: var(--red-bg);
     border-radius: 5px;
     width: 160px;
     margin-bottom: 1.9rem;
@@ -176,10 +181,10 @@ h3 {
 }
 
 .text a:hover {
-    background-color: #FFC796;
+    background-color: var(--yellow-bg);
     ;
-    color: rgb(250, 114, 114);
-    border: 1px solid rgb(250, 114, 114)
+    color: var(--red-bg);
+    border: 1px solid var(--red-bg);
 }
 
 .text p {
@@ -187,7 +192,7 @@ h3 {
 }
 
 footer {
-    background-color: rgb(250, 114, 114);
+    background-color: var(--red-bg);
     display: flex;
     justify-content: space-between;
     align-items: center
