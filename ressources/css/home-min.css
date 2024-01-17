@@ -122,6 +122,16 @@ h3 {
     display: flex
 }
 
+.container-projet {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
 .section3 {
     display: flex;
     align-items: center;
@@ -145,8 +155,8 @@ h3 {
     background-image: url('./../images/Parc_de_la_Villette_La_Geode.webp')
 }
 
-.projet-bbc-news {
-    background-image: url('./../images/BBC_News_2022.svg')
+.projet-rpg {
+    background-image: url('./../images/rpg.jpg')
 }
 
 .text {
@@ -250,10 +260,6 @@ footer nav li {
         margin: 5%;
     }
 
-    .section3 {
-        padding: 2.5rem 3.1rem 4.4rem;
-    }
-
     h3 {
         margin: 1rem
     }
@@ -263,16 +269,25 @@ footer nav li {
     }
 
     .text {
-        height: 155px;
+        height: 165px;
     }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1170px) {
     .text {
         height: 73px;
     }
 
     main {
         overflow: hidden
+    }
+
+    #section3 {
+        padding: 2.5rem 3.1rem 4.4rem;
+    }
+
+    .section3 {
+        width: auto;
+        margin: 0 auto;
     }
 }
