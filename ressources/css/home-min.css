@@ -1,1 +1,273 @@
-body {background-image: linear-gradient(to top, rgb(250, 114, 114), #FFC796);font-weight: 600;margin: 0;}nav {display: flex;justify-content: center;background-color: rgb(250, 114, 114);position: fixed;width: 100%;z-index: 1;top: 0 }ul {display: flex;align-items: center;list-style: none;padding: 0 10% }a {text-decoration: none }h1, h2, h3 {font-family: 'Work Sans', sans-serif;}header ul li a {font-size: 16px;padding: 0 15px;transition: 0.2s;text-transform: uppercase;color: black }header ul li a:hover {color: #FFC796;transition: 0.2s }.container {position: relative;width: 100%;max-width: 1200px;margin: 0 auto;padding: 0 15px }.section1 {padding-top: 130px }.section1 img {border-style: none;border-radius: 50%;margin: 0 auto;max-width: 200px;width: 200px;display: block }h1 {font-size: 32px;text-align: center;font-size: 24px;margin: 30px 0px 100px }.section2 {width: 90%;max-width: 1100px;height: auto;background-color: white;text-align: center;padding: 40px 50px 70px;margin: 0 auto;box-shadow: 10px 10px 0px rgb(0 0 0 / 40%), -10px -10px rgb(255 114 114 / 80%) }.sub-section2 {padding: 5px;display: flex;align-items: center;justify-content: center;flex-wrap: wrap }h3 {margin: 16px 0 }.container-image img {height: auto;width: 250px;background-size: cover;background-position: center }.container-text {height: auto;margin: 0;width: 100%;text-align: left }#section3 {padding: 40px 50px 70px;margin: 0;width: 100%;height: auto;text-align: center;display: flex }.section3 {display: flex;align-items: center;justify-content: center;flex-flow: wrap;width: 100% }.project {width: 400px;height: 400px;background-color: white;position: relative;border-radius: 10px;margin: 20px;background-size: cover;background-position: center }.projet-cite-science {background-image: url('./../images/Parc_de_la_Villette_La_Geode.webp') }.projet-bbc-news {background-image: url('./../images/BBC_News_2022.svg') }.text {position: absolute;height: 55px;width: 100%;left: 0;bottom: 0;z-index: 2;background-color: white;overflow: hidden;transition: 0.2s }.text:hover {height: 200px;transition: 0.3s;display: flex;flex-direction: column;justify-content: center;align-items: center }.text a, #section4 button {background-color: rgb(250, 114, 114);border-radius: 5px;width: 160px;margin-bottom: 30px;padding: 5px;color: black }.text a:hover, #section4 button:hover {background-color: white;color: rgb(250, 114, 114);border: 1px solid rgb(250, 114, 114) }.text p {margin: 1rem 10px }#section4 {width: 100%;height: auto;padding: 75px 0 50px 0;text-align: center;background-color: rgb(255, 199, 150, 45%) }#section4 p {margin-bottom: 50px }.contact-form {display: flex;max-width: 1100px;text-align: left;margin: 0 auto }.contact-form label {display: block;margin-bottom: 9px }.contact-message {display: flex;flex-direction: column;width: 60% }.contact-message textarea {border-radius: 5px;border: 0 }.contact-details {flex: 1;margin-right: 50px }.contact-details input {width: 90%;border-radius: 5px;border: 0px;padding: 15px 20px;margin-bottom: 20px }#section4 button {width: 140px;height: 40px;margin-top: 40px;margin-left: auto;text-transform: uppercase;font-weight: bold;cursor: pointer;border: 0;transition: 0.3s }footer {background-color: rgb(250, 114, 114);display: flex;justify-content: space-between;align-items: center }.copyright {width: 100%;margin-left: 1rem }.icone {width: 35px;height: 35px }footer nav {position: relative;justify-content: flex-end }footer nav li {margin: 0 1rem }@media screen and (min-width:550px) {.container-text {width: 40%;margin-left: 40px }#section3 {width: 90%;padding: 5px;margin: 5%;}h3 {margin: 1rem }}
+body {
+    background-image: linear-gradient(to top, rgb(250, 114, 114), #FFC796);
+    font-weight: 600;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 114, 114);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0
+}
+
+main {
+    overflow: scroll
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 10%
+}
+
+a {
+    text-decoration: none
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header ul li a {
+    font-size: 12px;
+    padding: 0 0.94rem;
+    transition: 0.2s;
+    text-transform: uppercase;
+    color: black
+}
+
+header ul li a:hover {
+    color: #FFC796;
+    transition: 0.2s
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section1 {
+    padding: 6rem 0 0;
+}
+
+.section1 img {
+    border-style: none;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 200px;
+    display: block
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.section2 {
+    width: 80%;
+    max-width: 1100px;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin: 4rem auto 2rem;
+    padding: 3.2rem 1rem;
+    box-shadow: 0.6rem 0.6rem 0 rgb(0 0 0 / 40%), -0.6rem -0.6rem rgb(255 114 114 / 80%)
+}
+
+.sub-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+h3 {
+    margin: 1rem 0
+}
+
+.container-image img {
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+
+.container-text {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    text-align: left
+}
+
+#section3 {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 100%
+}
+
+.project {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    border-radius: 0.6rem;
+    margin: 1.2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.projet-cite-science {
+    background-image: url('./../images/Parc_de_la_Villette_La_Geode.webp')
+}
+
+.projet-bbc-news {
+    background-image: url('./../images/BBC_News_2022.svg')
+}
+
+.text {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.text:hover {
+    height: 200px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.text a {
+    background-color: rgb(250, 114, 114);
+    border-radius: 5px;
+    width: 160px;
+    margin-bottom: 1.9rem;
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.text a:hover {
+    background-color: #FFC796;
+    ;
+    color: rgb(250, 114, 114);
+    border: 1px solid rgb(250, 114, 114)
+}
+
+.text p {
+    margin: 1rem 0.6rem
+}
+
+footer {
+    background-color: rgb(250, 114, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.copyright {
+    width: 100%;
+    margin-left: 1rem
+}
+
+.icone {
+    width: 2.2rem;
+    height: 2.2rem
+}
+
+footer nav {
+    position: relative;
+    justify-content: flex-end
+}
+
+footer nav li {
+    margin: 0 1rem
+}
+
+@media screen and (min-width:550px) {
+    .container {
+        padding: 0 0.94rem
+    }
+
+    .section1 {
+        padding: 8.12rem 1rem 0;
+    }
+
+    h1 {
+        margin: 1.87rem 0 6.25rem
+    }
+
+    .container-text {
+        width: 40%;
+        margin-left: 2.5rem
+    }
+
+    .section2 {
+        padding: 2.5rem 3.1rem 4.4rem;
+    }
+
+    .sub-section2 {
+        padding: 5px;
+    }
+
+    #section3 {
+        padding: 2.5rem 3.1rem 4.4rem;
+        width: 90%;
+        padding: 5px;
+        margin: 5%;
+    }
+
+    .section3 {
+        padding: 2.5rem 3.1rem 4.4rem;
+    }
+
+    h3 {
+        margin: 1rem
+    }
+
+    header ul li a {
+        font-size: 16px;
+    }
+
+    .text {
+        height: 155px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .text {
+        height: 73px;
+    }
+
+    main {
+        overflow: hidden
+    }
+}
