@@ -163,6 +163,10 @@ h3 {
     background-image: url('./../images/codepen.webp')
 }
 
+.projet-market-promotion {
+    background-image: url('./../images/market-promotion.webp')
+}
+
 .text {
     position: absolute;
     height: 200px;
