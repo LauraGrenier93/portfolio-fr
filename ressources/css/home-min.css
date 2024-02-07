@@ -167,6 +167,10 @@ h3 {
     background-image: url('./../images/market-promotion.webp')
 }
 
+.projet-my-diary {
+    background-image: url('./../images/mydiary.webp')
+}
+
 .text {
     position: absolute;
     height: 200px;
