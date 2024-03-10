@@ -151,10 +151,6 @@ h3 {
     background-position: center;
 }
 
-.projet-cite-science {
-    background-image: url('./../images/Parc_de_la_Villette_La_Geode.webp')
-}
-
 .projet-rpg {
     background-image: url('./../images/rpg.webp')
 }
@@ -163,12 +159,12 @@ h3 {
     background-image: url('./../images/codepen.webp')
 }
 
-.projet-market-promotion {
-    background-image: url('./../images/market-promotion.webp')
-}
-
 .projet-my-diary {
     background-image: url('./../images/mydiary.webp')
+}
+
+.projet-planetes {
+    background-image: url('./../images/planetes.webp')
 }
 
 .text {
